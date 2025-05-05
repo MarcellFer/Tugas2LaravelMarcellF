@@ -2,16 +2,17 @@
 
 <table>
     <tr>
-        <th>nama</th>
-        <th>Singkatan</th>
-        <th>Dekan</th>
-        <th>Wakil Dekan</th>
+    <th>nama</th>
+    <th>Singkatan</th>
+    <th>Dekan</th>
+    <th>Wakil Dekan</th>
     </tr>
 @foreach ($fakultas as $item)
     <tr>
-        <td>{{ $item->nama}}</td> 
-        <td>{{$item->singkatan}}</td>
-        <td>{{$item->dekan}}</td>
-        <td>{{$item->wakil_dekan}}</td>
+    <td>{{ $item->nama }}</td>
+    <td>{{ $item->singkatan }}</td>
+    <td>{{ $item->dekan }}</td>
+    <td>{{ $item->wakil_dekan }}</td>
+    </tr>
 @endforeach
 </table>
