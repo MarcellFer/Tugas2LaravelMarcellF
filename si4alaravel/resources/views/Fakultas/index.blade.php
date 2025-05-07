@@ -16,3 +16,6 @@
     </tr>
 @endforeach
 </table>
+
+@extends('layout.main')
+@section('title', 'fakultas')
